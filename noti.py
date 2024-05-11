@@ -1,13 +1,19 @@
 import requests
 
-import cgi 
-print "Content-type: text/html" 
-print """<html> 
-<head><title>My first Python CGI app</title></head> 
-<body> 
-<p>Hello, 'world'!</p> 
-</body> 
-</html>""" 
+import commands 
+ 
+print "content-type: text/html" 
+print 
+ 
+#Now you can write html code in print statement 
+print """ 
+<table> 
+<form action=""> 
+<input type="pass" name="pass"> 
+<input type="Submit"> 
+</form> 
+</table>  
+""" 
 
 print("HTML file successfully written.")
 
