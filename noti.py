@@ -10,7 +10,7 @@ import sys
 
 import requests
 
-response = requests.post("https://studynotification.app.n8n.cloud/webhook/64e9e6b2-0695-415a-a82e-9e498942915f", json={
+response = requests.post("https://hook.eu2.make.com/2kyky66e8hfcitrge57je77xasyd6g7n", json={
     "userId": 1,
     "title": "Online Script is Working",
     "completed": False
